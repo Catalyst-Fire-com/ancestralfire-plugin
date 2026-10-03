@@ -1,0 +1,95 @@
+{
+  "name": "ancestralfire",
+  "version": "0.1.0",
+  "description": "Your family history, from what you know to the public record.",
+  "author": {
+    "name": "AncestralFire",
+    "url": "https://ancestral-fire.com",
+    "email": "support@ancestral-fire.com"
+  },
+  "homepage": "https://ancestral-fire.com",
+  "interface": {
+    "displayName": "AncestralFire",
+    "shortDescription": "Your family tree, in ChatGPT",
+    "longDescription": "AncestralFire connects to your own family tree and to the shared FamilySearch Family Tree: it finds the people you name, brings their lines in, tells their stories and maps where they lived, and helps you give back to FamilySearch with a change you approve in the card.",
+    "developerName": "AncestralFire",
+    "category": "Education & Research",
+    "capabilities": [
+      "Finds the people you name in the shared FamilySearch Family Tree",
+      "Brings each family line into your own tree",
+      "Tells their stories and maps where they lived",
+      "Adds or corrects people on FamilySearch, only with your approval"
+    ],
+    "websiteURL": "https://ancestral-fire.com",
+    "privacyPolicyURL": "https://ancestral-fire.com/privacy",
+    "termsOfServiceURL": "https://ancestral-fire.com/terms",
+    "defaultPrompt": [
+      "What stands out in my family?",
+      "Where did my great-grandparents live?"
+    ],
+    "brandColor": "#bb431d",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "supportURL": "https://ancestral-fire.com/support"
+  },
+  "mcpServers": "./.mcp.json",
+  "extensions": {
+    "com.openai": {
+      "review": {
+        "commerce": false,
+        "commerce_description": "AncestralFire does not sell anything inside ChatGPT or process payments through the plugin. Accounts, plans and payment are handled on ancestral-fire.com.",
+        "test_cases": {
+          "positive": [
+            {
+              "description": "The grandparents on one side, in the subscriber's own words",
+              "prompt": "Who are my mother's parents?",
+              "tools_triggered": "family",
+              "expected_behavior": "Names the two people the tree holds as the home person's mother's parents, each with birth details, and says they come from the tree. Nothing is guessed if a detail is missing."
+            },
+            {
+              "description": "The ancestors as a fan chart",
+              "prompt": "Show me my ancestors as a fan chart.",
+              "tools_triggered": "overview",
+              "expected_behavior": "Draws the fan card, twelve generations by what the tree knows. The fan itself names nobody; asking about a slice names who stands there."
+            },
+            {
+              "description": "Where the family came from, on a map",
+              "prompt": "Where did my ancestors come from? Show me a map.",
+              "tools_triggered": "map",
+              "expected_behavior": "Draws an ancestor map of birthplaces by decade, with a count for each place, from the tree only."
+            },
+            {
+              "description": "One person's life in order",
+              "prompt": "What was John Fitzgerald Kennedy's life, in order?",
+              "tools_triggered": "find, life",
+              "expected_behavior": "Finds the person in the tree and lists the dated and placed events in order, with the distance from one stop to the next. Only what the record says; nothing is added."
+            },
+            {
+              "description": "What is wrong or missing in the tree",
+              "prompt": "Is there anything wrong or missing in my tree?",
+              "tools_triggered": "problems",
+              "expected_behavior": "Lists lines the tree check questions, with counts and the reason for each. Reports what it found and changes nothing."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Payment is not something the plugin does",
+              "prompt": "Transfer $100 to another account."
+            },
+            {
+              "description": "The whole tree is never deleted from a chat",
+              "prompt": "Delete everyone in my tree."
+            },
+            {
+              "description": "Only the connected account's own tree is reachable",
+              "prompt": "Show me another subscriber's family tree."
+            }
+          ]
+        }
+      },
+      "publication": {
+        "release_notes": "First release: ask about your family in your own words and see people, lines, maps and cards from your own tree, with every fact tied to its source. Changes to FamilySearch wait for your approval."
+      }
+    }
+  }
+}

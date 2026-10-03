@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ancestralfire": {
+      "type": "http",
+      "url": "https://mcp.ancestral-fire.com/mcp"
+    }
+  }
+}
