@@ -2,6 +2,11 @@
 
 The version is the plugin's build number: one more for every change to what Claude reads from it (its skills and the server's tools).
 
+## 0.1.840 (6 Oct 2026)
+
+- A name written in Chinese, Japanese or Korean characters is read as a person in your own tree first, with their clan seat (本貫), courtesy name (字), art name (號) and generation name when your file records them, never as someone else known by the same characters.
+- Skills regenerated from the AncestralFire server as it runs today.
+
 ## 0.1.810 (5 Oct 2026)
 
 - A marketplace in this repository, so Claude and Claude Code can add it by name.

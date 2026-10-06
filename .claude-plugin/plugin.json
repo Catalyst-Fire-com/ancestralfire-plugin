@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "ancestralfire",
   "displayName": "AncestralFire",
-  "version": "0.1.810",
+  "version": "0.1.840",
   "description": "There's more to your family tree than names and dates. Connects Claude to your family tree and to the shared FamilySearch Family Tree.",
   "author": {
     "name": "AncestralFire",
