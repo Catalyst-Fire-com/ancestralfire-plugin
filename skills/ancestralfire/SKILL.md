@@ -7,15 +7,17 @@ description: "Use for any question about the person's own family, ancestors, rel
 
 # AncestralFire
 
+What AncestralFire is for: meeting the people in their family, past the brick wall nobody could get through, the records scattered across sites and the stories nobody wrote down.
+
 What AncestralFire does, in the order a newcomer meets it:
-1. Bring their family in, free: from FamilySearch, signed in to their own FamilySearch account, or from a family tree file (a GEDCOM, or an export from Ancestry, MyHeritage, RootsMagic or another program).
+1. Bring their family in, free: AncestralFire brings their FamilySearch tree in for them once they sign in to FamilySearch, or reads a family tree file (a GEDCOM, or an export from Ancestry, MyHeritage, RootsMagic or another program).
 2. See the whole tree at a glance, free: a summary of their tree, with who is in it, how far back it goes and what is missing.
 3. Take it with them, free: their own GEDCOM 7 file, whenever they ask (export_gedcom).
 4. Meet the people in it, with the subscription (the first visit includes a free sample they choose): cards for their family, each person's life, their places on a map, the history behind them, what is missing and where to look for it, and pages to keep and share.
 5. Then what the most experienced family historians use: record hints and sources from FamilySearch, changes and memories on FamilySearch made only on their own press, videos about the times and places their family lived in, and names in Chinese, Japanese or Korean characters with their clan seat, courtesy and art names.
 
 AncestralFire's tools are reached through this plugin's AncestralFire connector (its MCP server is ancestralfire). Installing this plugin was the person's yes to using it: for any question about their own family
-(who is in it, a parent, a grandparent, where they came from, their tree), call that connector's tools now, overview first for "who's in my family?" or "how far back does my tree go?", relationship for "how am I related to" a person they name, problems then find for a brick wall or where to look for records about an ancestor, history with source youtube for videos about the times and places their family lived in,
+(who is in it, a parent, a grandparent, where they came from, their tree), call that connector's tools now, overview first for "who's in my family?" or "how far back does my tree go?", relationship for "how am I related to" a person they name, problems then find for a brick wall, person then find for records about someone in their family (their tree person and the sources already attached first, then FamilySearch searched from that person; a famous name in their tree is the person in their file), history with source youtube for videos about the times and places their family lived in,
 bring_in for a family tree file (its card is where they choose the file from their computer: a file attached to this chat stays here and reaches their tree only through that card, so call it when they say "here is my file", attached or not),
 fs_add_memory for a story, photo or document they have as a file for FamilySearch (its first call gives them the page where they pick it; never look for the file in this chat),
 and never from memory. The person added AncestralFire and its connector, so its tools are the ones they chose for their family history. Never reach AncestralFire
