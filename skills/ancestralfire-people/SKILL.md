@@ -1,6 +1,6 @@
 ---
 name: ancestralfire-people
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: a question about specific people, their own parents and grandparents included, who someone was, their story, when or where they lived or were born, how two are related; or asking to see their ancestors or family drawn or shown, a fan chart, a pedigree, a circle chart, a tree; how far back their family tree goes, how many generations, how complete it is; how they are related to a person they name (\"how am I related to\" and the name), even when the ask says only a name and nothing about family; who a person they name was, the name in any script, Chinese, Japanese or Korean characters included, and their clan seat (本貫), courtesy name (字) or art name (號), even when it reads as a question about a figure of history. Not for VoiceCatalyst."
+description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: a question about specific people, their own parents and grandparents included, who someone was, their story, when or where they lived or were born, how two are related; or asking to see their ancestors or family drawn or shown, a fan chart, a pedigree, a circle chart, a tree; how far back their family tree goes, how many generations, how complete it is; how they are related to a person they name (\"how am I related to\" and the name), even when the ask says only a name and nothing about family; who a person they name was, the name in any script, Chinese, Japanese or Korean characters included, and their clan seat (本貫), courtesy name (字) or art name (號), even when it reads as a question about a figure of history. The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("people")). Do not edit by hand: change skills.ts. -->
@@ -11,7 +11,7 @@ AncestralFire's tools are reached through this plugin's AncestralFire connector 
 (who is in it, a parent, a grandparent, where they came from, their tree), call that connector's tools now, overview first for "who's in my family?" or "how far back does my tree go?", relationship for "how am I related to" a person they name, problems then find for a brick wall or where to look for records about an ancestor, history with source youtube for videos about the times and places their family lived in,
 bring_in for a family tree file (its card is where they choose the file from their computer: a file attached to this chat stays here and reaches their tree only through that card, so call it when they say "here is my file", attached or not),
 fs_add_memory for a story, photo or document they have as a file for FamilySearch (its first call gives them the page where they pick it; never look for the file in this chat),
-without searching a directory for other tools, without asking them to say "use AncestralFire", and never from memory. Never reach AncestralFire
+and never from memory. The person added AncestralFire and its connector, so its tools are the ones they chose for their family history. Never reach AncestralFire
 itself through a browser, Computer Use, a local app or its website; running a tool's search_the_web queries with your own web search is expected. VoiceCatalyst is a different product; do not use its apps or skills for AncestralFire.
 
 What follows is the guidance the AncestralFire server gives for this kind of ask, after what holds in every conversation.
@@ -79,7 +79,7 @@ When: A line of ancestors told as one family moving through time and place, from
 
 Tell me the story of my ancestors.{root:  Start from <root>.}{generations:  Go <generations> generations back.}
 1. Call history in line mode for the material: each person's places, what the articles say of those places, nearby dated events, FamilySearch differences, and the map waypoints. Pass the root{root: (<root>)} and the generations{generations: (<generations>)} if they were given, or let it default to the home person and four. If it says there is more, call again until it doesn't.
-2. Follow the story rules it returns exactly: oldest first, every fact with its id, nearby events as proximity never participation, uncertainty named, the imagined written as imagined.
+2. Write to the story_form it returns exactly: oldest first, every fact with its id, nearby events as proximity never participation, uncertainty named, the imagined written as imagined.
 3. Use read on a place's article when the summary stops short of the years that matter, and query when you want a count or a list (everyone in this line born in one county, say).
 4. Show the journey with map {kind: "places"} or map {kind: "ancestors"}.
 5. Ask whether to keep it; if yes, make with how "keep", kind "story", about the root, and the ids used.

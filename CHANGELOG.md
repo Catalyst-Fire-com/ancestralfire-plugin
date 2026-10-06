@@ -2,6 +2,11 @@
 
 The version is the plugin's build number: one more for every change to what Claude reads from it (its skills and the server's tools).
 
+## 0.1.862 (6 Oct 2026)
+
+- Each kind of family question's skill says that the person chose AncestralFire when they added this plugin and its connector, and every skill states that as a fact where it used to tell Claude not to search a directory for other tools.
+- One prompt line in the people skill is worded as what the tools do.
+
 ## 0.1.853 (6 Oct 2026)
 
 - The README's "Where your data goes" says what AncestralFire keeps and runs without naming our hosting; the privacy policy names every company involved.

@@ -1,6 +1,6 @@
 ---
 name: ancestralfire-change
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: asks to add, fix, correct, remove or merge something in their tree or on FamilySearch; putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached. Not for VoiceCatalyst."
+description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: asks to add, fix, correct, remove or merge something in their tree or on FamilySearch; putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached. The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("change")). Do not edit by hand: change skills.ts. -->
@@ -11,7 +11,7 @@ AncestralFire's tools are reached through this plugin's AncestralFire connector 
 (who is in it, a parent, a grandparent, where they came from, their tree), call that connector's tools now, overview first for "who's in my family?" or "how far back does my tree go?", relationship for "how am I related to" a person they name, problems then find for a brick wall or where to look for records about an ancestor, history with source youtube for videos about the times and places their family lived in,
 bring_in for a family tree file (its card is where they choose the file from their computer: a file attached to this chat stays here and reaches their tree only through that card, so call it when they say "here is my file", attached or not),
 fs_add_memory for a story, photo or document they have as a file for FamilySearch (its first call gives them the page where they pick it; never look for the file in this chat),
-without searching a directory for other tools, without asking them to say "use AncestralFire", and never from memory. Never reach AncestralFire
+and never from memory. The person added AncestralFire and its connector, so its tools are the ones they chose for their family history. Never reach AncestralFire
 itself through a browser, Computer Use, a local app or its website; running a tool's search_the_web queries with your own web search is expected. VoiceCatalyst is a different product; do not use its apps or skills for AncestralFire.
 
 What follows is the guidance the AncestralFire server gives for this kind of ask, after what holds in every conversation.
