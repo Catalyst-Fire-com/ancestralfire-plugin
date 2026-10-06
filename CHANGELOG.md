@@ -2,6 +2,11 @@
 
 The version is the plugin's build number: one more for every change to what Claude reads from it (its skills and the server's tools).
 
+## 0.1.853 (6 Oct 2026)
+
+- The README's "Where your data goes" says what AncestralFire keeps and runs without naming our hosting; the privacy policy names every company involved.
+- Skills unchanged since 0.1.840.
+
 ## 0.1.852 (6 Oct 2026)
 
 - The description says what it is in the words families search for: genealogy and family history with Claude, bringing your family in free from FamilySearch or a GEDCOM file, then meeting your ancestors.

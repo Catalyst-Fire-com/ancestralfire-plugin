@@ -30,7 +30,7 @@ In Claude Code the answers come as text; the fan, the map and the person cards d
 Most of a family tree is people long gone, from public records; the living people in it are kept private, and never sent to FamilySearch. Your tree is yours alone: we never sell it or pool it with anyone else's.
 
 - **Claude** reads what a question needs from your tree, and any scan you add in the chat, under the terms you accepted with Anthropic.
-- **AncestralFire** keeps your tree in a database that belongs to your account only, hosted on Cloudflare, which also runs the small models that search your notes and double-check a change before you approve it.
+- **AncestralFire** keeps your tree in a database that belongs to your account only, and runs the small models that search your notes and double-check a change before you approve it.
 - **FamilySearch**, only if you connect it: we search it for the people in your tree who have died, and a change to the shared tree is written only when you approve it, under your own FamilySearch account.
 - **Outside sources**, asked only what a question needs: Wikipedia, Wikidata, Wikisource, the Library of Congress, YouTube, and the map tiles of OpenFreeMap and OpenHistoricalMap.
 - **WorkOS** signs you in, and **Stripe** takes payment if you subscribe.
