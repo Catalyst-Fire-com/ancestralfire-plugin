@@ -1,14 +1,28 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ancestralfire",
   "owner": {
     "name": "AncestralFire",
-    "url": "https://ancestral-fire.com"
+    "url": "https://ancestral-fire.com",
+    "email": "support@ancestral-fire.com"
   },
   "plugins": [
     {
       "name": "ancestralfire",
       "source": "./",
-      "description": "There's more to your family tree than names and dates. Connects Claude to your family tree and to the shared FamilySearch Family Tree."
+      "description": "There's more to your family tree than names and dates. Connects Claude to your family tree and to the shared FamilySearch Family Tree.",
+      "author": {
+        "name": "AncestralFire",
+        "url": "https://ancestral-fire.com"
+      },
+      "homepage": "https://ancestral-fire.com",
+      "category": "learning",
+      "keywords": [
+        "genealogy",
+        "family history",
+        "familysearch",
+        "gedcom"
+      ]
     }
   ],
   "metadata": {

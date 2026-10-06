@@ -1,0 +1,25 @@
+# Runs in the public repository (Catalyst-Fire-com/ancestralfire-plugin), where this folder is published.
+# The manifest check is Claude Code's own validator; the server check passes on 401 (it asks for a sign-in) and fails on 404 or no answer.
+name: Validate
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 14 * * *"
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx -y @anthropic-ai/claude-code plugin validate --strict .
+      - name: The MCP server answers
+        run: |
+          url=$(node -e 'console.log(require("./.mcp.json").mcpServers.ancestralfire.url)')
+          code=$(curl -s --max-time 20 -o /dev/null -w '%{http_code}' -X POST -H 'Content-Type: application/json' -d '{}' "$url")
+          echo "$url answered $code"
+          case "$code" in 404|410|000) exit 1;; esac
