@@ -10,7 +10,7 @@
     {
       "name": "ancestralfire",
       "source": "./",
-      "description": "There's more to your family tree than names and dates. Connects Claude to your family tree and to the shared FamilySearch Family Tree.",
+      "description": "There's more to your family tree than names and dates. Bring your family in free, from FamilySearch or a family-tree file, then meet the people in it: their lives, places and stories, and the sources behind them.",
       "author": {
         "name": "AncestralFire",
         "url": "https://ancestral-fire.com"
@@ -19,9 +19,15 @@
       "category": "learning",
       "keywords": [
         "genealogy",
-        "family history",
+        "family-tree",
+        "family-history",
+        "ancestors",
+        "ancestral",
+        "family-stories",
+        "heritage",
         "familysearch",
-        "gedcom"
+        "gedcom",
+        "historical-records"
       ]
     }
   ],

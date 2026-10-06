@@ -2,6 +2,11 @@
 
 The version is the plugin's build number: one more for every change to what Claude reads from it (its skills and the server's tools).
 
+## 0.1.850 (6 Oct 2026)
+
+- The listing's words: ten keywords for how families search (genealogy, family tree, family history, ancestors, ancestral, family stories, heritage, FamilySearch, GEDCOM, historical records), a description that says what you meet, and a README that says Claude Code shows the answers as text.
+- Skills unchanged since 0.1.840.
+
 ## 0.1.847 (6 Oct 2026)
 
 - The plugin's own listing: its icon, and links to the setup guide, help, privacy policy and terms.

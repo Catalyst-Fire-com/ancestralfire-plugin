@@ -10,10 +10,13 @@ This plugin connects Claude to AncestralFire (https://ancestral-fire.com): your 
 - "Where did my great-grandparents live?"
 - "Tell me about my grandmother's parents."
 
-Claude reads your tree, answers with where each fact came from, and, where Claude can show them, draws the people it found as a fan, a map or a page about each person.
+Claude reads your tree, answers with the sources behind what it finds, and, where Claude can show them, draws the people it found as a fan, a map or a page about each person.
+
+In Claude Code the answers come as text; the fan, the map and the person cards draw in Claude on the web, the desktop app and mobile.
 
 ## Install
 
+- **From Claude's plugin directory:** add AncestralFire under Customize > Plugins.
 - **Claude (claude.ai and the desktop app):** Customize > Plugins > Add > Add marketplace, enter `Catalyst-Fire-com/ancestralfire-plugin`, then install AncestralFire.
 - **Claude Code:** `/plugin marketplace add Catalyst-Fire-com/ancestralfire-plugin`, then `/plugin install ancestralfire@ancestralfire`.
 
