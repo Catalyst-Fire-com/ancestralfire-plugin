@@ -1,0 +1,17 @@
+{
+  "name": "ancestralfire",
+  "owner": {
+    "name": "AncestralFire",
+    "url": "https://ancestral-fire.com"
+  },
+  "plugins": [
+    {
+      "name": "ancestralfire",
+      "source": "./",
+      "description": "There's more to your family tree than names and dates. Connects Claude to your family tree and to the shared FamilySearch Family Tree."
+    }
+  ],
+  "metadata": {
+    "description": "AncestralFire for Claude: your family tree, what was found in it, and the shared FamilySearch Family Tree."
+  }
+}
