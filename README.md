@@ -27,7 +27,7 @@ In Claude Code the answers come as text; the fan, the map and the person cards d
 
 ## Where your data goes
 
-Most of a family tree is people long gone, from public records; the living people in it are kept private, and never sent to FamilySearch. Your tree is yours alone: we never sell it or pool it with anyone else's.
+Most of a family tree is people long gone, from public records; the living people in it stay in your own file: we never add, change, attach or publish anything about them on FamilySearch, or search for them there. Your tree is yours alone: we never sell it or pool it with anyone else's.
 
 - **Claude** reads what a question needs from your tree, and any scan you add in the chat, under the terms you accepted with Anthropic.
 - **AncestralFire** keeps your tree in a database that belongs to your account only, and runs the small models that search your notes and double-check a change before you approve it.
