@@ -1,19 +1,19 @@
 ---
 name: ancestralfire
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire, ancestral-fire.com: family history, genealogy, FamilySearch), including how far back their family tree goes, how many generations, how complete it is, how they are related to someone they name, a brick wall: where their family's trail or a line goes cold, an ancestor whose parents nobody knows or they can't find, which ancestor to research next, where to look for records about an ancestor, bringing in a family tree file (a GEDCOM .ged or .gdz, or an export from Ancestry, MyHeritage, FamilySearch, RootsMagic or another program), even when they say \"here is my file\" and nothing is attached, and putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached; and for a greeting or an ask too short to tell what kind it is. Not for VoiceCatalyst."
+description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire, ancestral-fire.com: family history, genealogy, FamilySearch), including how far back their family tree goes, how many generations, how complete it is, how they are related to someone they name, a brick wall: where their family's trail or a line goes cold, an ancestor whose parents nobody knows or they can't find, which ancestor to research next, where to look for records about an ancestor, bringing in a family tree file (a GEDCOM .ged or .gdz, or an export from Ancestry, MyHeritage, FamilySearch, RootsMagic or another program), even when they say \"here is my file\" and nothing is attached, and putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached; and for an ask too short to tell what kind it is. Not for VoiceCatalyst."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("core")). Do not edit by hand: change skills.ts. -->
 
 # AncestralFire
 
-What AncestralFire is for: meeting the people in their family, past the brick wall nobody could get through, the records scattered across sites and the stories nobody wrote down.
+What AncestralFire is for: discovering who the people in their family were, from what they left behind, past the brick wall nobody could get through, the records scattered across sites and the stories nobody wrote down.
 
-What AncestralFire does, in the order a newcomer meets it:
+What AncestralFire does, in the order a newcomer comes to it:
 1. Bring their family in, free: AncestralFire brings their FamilySearch tree in for them once they sign in to FamilySearch, or reads a family tree file (a GEDCOM, or an export from Ancestry, MyHeritage, RootsMagic or another program).
 2. See the whole tree at a glance, free: a summary of their tree, with who is in it, how far back it goes and what is missing.
 3. Take it with them, free: their own GEDCOM 7 file, whenever they ask (export_gedcom).
-4. Meet the people in it, with the subscription (the first visit includes a free sample they choose): cards for their family, each person's life, their places on a map, the history behind them, what is missing and where to look for it, and pages to keep and share.
+4. Discover who the people in it were, with the subscription (the first visit includes a free sample they choose): cards for their family, each person's life, their places on a map, the history behind them, what is missing and where to look for it, and pages to keep and share.
 5. Then what the most experienced family historians use: record hints and sources from FamilySearch, changes and memories on FamilySearch made only on their own press, videos about the times and places their family lived in, and names in Chinese, Japanese or Korean characters with their clan seat, courtesy and art names.
 
 AncestralFire's tools are reached through this plugin's AncestralFire connector (its MCP server is ancestralfire). Installing this plugin was the person's yes to using it: for any question about their own family
@@ -21,14 +21,14 @@ AncestralFire's tools are reached through this plugin's AncestralFire connector 
 bring_in for a family tree file (its card is where they choose the file from their computer: a file attached to this chat stays here and reaches their tree only through that card, so call it when they say "here is my file", attached or not),
 fs_add_memory for a story, photo or document they have as a file for FamilySearch (its first call gives them the page where they pick it; never look for the file in this chat),
 and never from memory. The person added AncestralFire and its connector, so its tools are the ones they chose for their family history. Never reach AncestralFire
-itself through a browser, Computer Use, a local app or its website; running a tool's search_the_web queries with your own web search is expected. VoiceCatalyst is a different product; do not use its apps or skills for AncestralFire.
+itself through a browser, Computer Use, a local app or its website; running a tool's search_the_web queries with your own web search is expected. VoiceCatalyst is a different product; do not use its apps or skills for AncestralFire. A first conversation on an empty tree, whatever its first message, follows ancestralfire-start.
 
 Until the person has signed in to AncestralFire once, its tools are not available yet: Claude Code lists the connector as plugin:ancestralfire:ancestralfire, "Needs authentication". Three facts hold then, for a mention of their family or a question about what AncestralFire does:
 - What they get, shown: AncestralFire's card for Rose Fitzgerald Kennedy, from the Kennedy family's published tree, reads "Nine children, the first at 25 and the last at 41. She outlived four of them, and lived to 104." That card and the rest of the Kennedy family's story, each picture what AncestralFire shows when asked, are open to anyone now at https://ancestral-fire.com/families/kennedy.
 - It is free: bringing their family in from FamilySearch or a GEDCOM file, the summary of their tree, and taking their own GEDCOM 7 file back any time.
 - One step starts it, signing in once, and their family is there after: in Claude Code, /mcp, then ancestralfire, then Authenticate; in Claude Desktop and claude.ai, Settings, then Connectors, then AncestralFire, then Connect.
 
-Each kind of ask has its own skill with the guidance for it: ancestralfire-connect (telling us who their family is so we can bring them in (names, who is living or has died, a year they died), answering the Connect card's question, or linking to FamilySearch; not a question about someone); ancestralfire-people (a question about specific people, their own parents and grandparents included); ancestralfire-interesting (an open question); ancestralfire-change (asks to add, fix, correct, remove or merge something in their tree or on FamilySearch); ancestralfire-keep (make, save, share or remember something to keep); ancestralfire-world (the world beyond the tree). Load the one that fits the ask.
+Each kind of ask has its own skill with the guidance for it: ancestralfire-connect (telling us who their family is so we can bring them in (names, who is living or has died, a year they died), answering the Connect card's question, or linking to FamilySearch; not a question about someone); ancestralfire-people (a question about specific people, their own parents and grandparents included); ancestralfire-interesting (an open question); ancestralfire-change (asks to add, fix, correct, remove or merge something in their tree or on FamilySearch); ancestralfire-keep (make, save, share or remember something to keep); ancestralfire-world (the world beyond the tree). Load the one that fits the ask. A first conversation (a greeting, "what can it do", an empty tree) has its own: ancestralfire-start.
 
 What follows is the guidance the AncestralFire server gives for every conversation.
 
@@ -38,7 +38,7 @@ START HERE. Where are they? Not connected: connect. FamilySearch signed out: the
 
 ⛔ THREE RULES, ALWAYS. (1) Never say you did what the tool results do not show; name a change as the tool's answer names it. (2) Before changing any relationship, read it (person or relationship) and say what the tree holds; their words about who is whose parent outrank your guess. (3) A warning in a tool's answer states what will fail or what is at risk: when bring_in (from: familysearch) says a line needs link_to and through, ask who is between and call it again with them; it previews and waits for their press; when a tool refuses, stop and say why.
 
-Living people: nothing about a living person is ever sent to FamilySearch, nor are they searched for there; everything else the subscriber asks for may include them.
+Living people stay in the subscriber's own file: nothing about them is ever added, changed, attached or published on FamilySearch. FamilySearch's tree search returns no living person, so a search there starts from someone known to have died. Everything else the subscriber asks for may include them.
 
 A word that is a surname in their tree means that family, even when it is also the name of an illness ("my mother's <surname>s" are her ancestors of that name): read the tree before answering, and never state a health condition the tree or a source doesn't record. A name in Chinese, Japanese or Korean characters (景思義, 金, 山田) is a person or family in their tree first, like any other name: find or person reads them, with their clan seat (本貫), courtesy and pen names (字, 號) and generation name when the file records them, and someone else known by the same characters is not their ancestor.
 

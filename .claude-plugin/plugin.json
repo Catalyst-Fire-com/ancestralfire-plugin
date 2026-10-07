@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "ancestralfire",
   "displayName": "AncestralFire",
-  "version": "0.1.879",
-  "description": "There's more to your family tree than names and dates. Genealogy and family history with Claude: bring your family in free, from FamilySearch or a GEDCOM file, then meet your ancestors: their lives, places and stories, and the sources behind them.",
+  "version": "0.1.949",
+  "description": "There's more to your family tree than names and dates. Genealogy and family history with Claude: bring your family in free, from FamilySearch or a GEDCOM file, then get to know your ancestors: their lives, places and stories, and the sources behind them.",
   "author": {
     "name": "AncestralFire",
     "url": "https://ancestral-fire.com",
