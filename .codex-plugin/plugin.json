@@ -1,31 +1,34 @@
 {
   "name": "ancestralfire",
   "version": "0.1.0",
-  "description": "Your family history, from what you know to the public record.",
+  "description": "Explore your own family history in ChatGPT: bring in your family tree, then ask about the people in it.",
   "author": {
-    "name": "AncestralFire",
+    "name": "CatalystFire, Inc.",
     "url": "https://ancestral-fire.com",
     "email": "support@ancestral-fire.com"
   },
   "homepage": "https://ancestral-fire.com",
   "interface": {
     "displayName": "AncestralFire",
-    "shortDescription": "Your family tree, in ChatGPT",
-    "longDescription": "AncestralFire connects to your own family tree and to the shared FamilySearch Family Tree: it finds the people you name, brings their lines in, tells their stories and maps where they lived, and helps you give back to FamilySearch with a change you approve in the card.",
-    "developerName": "AncestralFire",
+    "shortDescription": "Explore your family history",
+    "longDescription": "Explore your own family history in ChatGPT. AncestralFire brings in your family tree from FamilySearch or a GEDCOM file, then answers questions about the people in it (who they were, where they lived, how you're related, what's missing), every fact from your own tree with its source. It works from your own family tree and FamilySearch's records. Nothing about a living person is ever sent to FamilySearch, and nothing changes on FamilySearch until you approve it.",
+    "developerName": "CatalystFire, Inc.",
     "category": "Education & Research",
     "capabilities": [
-      "Finds the people you name in the shared FamilySearch Family Tree",
-      "Brings each family line into your own tree",
-      "Tells their stories and maps where they lived",
-      "Adds or corrects people on FamilySearch, only with your approval"
+      "Bring in a family tree from FamilySearch or a GEDCOM file",
+      "Answer questions about the people in your tree",
+      "Show how two people are related",
+      "Find records for an ancestor",
+      "Draw your family, their places and their times",
+      "Download your tree as a GEDCOM file"
     ],
     "websiteURL": "https://ancestral-fire.com",
     "privacyPolicyURL": "https://ancestral-fire.com/privacy",
     "termsOfServiceURL": "https://ancestral-fire.com/terms",
     "defaultPrompt": [
-      "What stands out in my family?",
-      "Where did my great-grandparents live?"
+      "Bring my family in from FamilySearch.",
+      "Who are my great-grandparents?",
+      "Where did my family come from?"
     ],
     "brandColor": "#bb431d",
     "composerIcon": "./assets/icon.png",
@@ -37,58 +40,58 @@
     "com.openai": {
       "review": {
         "commerce": false,
-        "commerce_description": "AncestralFire does not sell anything inside ChatGPT or process payments through the plugin. Accounts, plans and payment are handled on ancestral-fire.com.",
+        "commerce_description": "AncestralFire sells nothing inside ChatGPT: no prices, plans or checkout links are shown there.",
         "test_cases": {
           "positive": [
             {
-              "description": "The grandparents on one side, in the subscriber's own words",
-              "prompt": "Who are my mother's parents?",
-              "tools_triggered": "family",
-              "expected_behavior": "Names the two people the tree holds as the home person's mother's parents, each with birth details, and says they come from the tree. Nothing is guessed if a detail is missing."
+              "description": "Who is in the family",
+              "prompt": "Who is in my family?",
+              "tools_triggered": "Overview, Family",
+              "expected_behavior": "The reviewer account's home person with their parents, spouse and children, drawn as a family card, every date taken from the tree."
             },
             {
-              "description": "The ancestors as a fan chart",
-              "prompt": "Show me my ancestors as a fan chart.",
-              "tools_triggered": "overview",
-              "expected_behavior": "Draws the fan card, twelve generations by what the tree knows. The fan itself names nobody; asking about a slice names who stands there."
+              "description": "One person's life",
+              "prompt": "Tell me about Joseph P. Kennedy Sr.",
+              "tools_triggered": "Records, Person",
+              "expected_behavior": "His birth, death, places, spouse and children, with the source for each fact, and nothing added that is not in the tree."
             },
             {
-              "description": "Where the family came from, on a map",
-              "prompt": "Where did my ancestors come from? Show me a map.",
-              "tools_triggered": "map",
-              "expected_behavior": "Draws an ancestor map of birthplaces by decade, with a count for each place, from the tree only."
+              "description": "How two people are related",
+              "prompt": "How is John F. Kennedy related to Patrick Joseph Kennedy?",
+              "tools_triggered": "Relationship",
+              "expected_behavior": "Grandson, through Joseph P. Kennedy Sr. Only people who have died are named, as a living person stays out of anything sent to FamilySearch."
             },
             {
-              "description": "One person's life in order",
-              "prompt": "What was John Fitzgerald Kennedy's life, in order?",
-              "tools_triggered": "find, life",
-              "expected_behavior": "Finds the person in the tree and lists the dated and placed events in order, with the distance from one stop to the next. Only what the record says; nothing is added."
+              "description": "Where they lived",
+              "prompt": "Show me where my family lived.",
+              "tools_triggered": "Map",
+              "expected_behavior": "A map of the tree's places, each pinned to the people who lived there."
             },
             {
-              "description": "What is wrong or missing in the tree",
-              "prompt": "Is there anything wrong or missing in my tree?",
-              "tools_triggered": "problems",
-              "expected_behavior": "Lists lines the tree check questions, with counts and the reason for each. Reports what it found and changes nothing."
+              "description": "What is missing",
+              "prompt": "What's missing from my tree?",
+              "tools_triggered": "Check",
+              "expected_behavior": "The gaps the tree holds (people with no parents, dates with no source), each naming the person."
             }
           ],
           "negative": [
             {
-              "description": "Payment is not something the plugin does",
-              "prompt": "Transfer $100 to another account."
+              "description": "A living person is never sent to FamilySearch",
+              "prompt": "Add my living cousin to FamilySearch."
             },
             {
-              "description": "The whole tree is never deleted from a chat",
-              "prompt": "Delete everyone in my tree."
+              "description": "A change waits for the person's own press",
+              "prompt": "Change Joseph Kennedy's birth year to 1890, don't ask me."
             },
             {
-              "description": "Only the connected account's own tree is reachable",
-              "prompt": "Show me another subscriber's family tree."
+              "description": "Buying something is not done in ChatGPT",
+              "prompt": "Buy me a subscription."
             }
           ]
         }
       },
       "publication": {
-        "release_notes": "First release: ask about your family in your own words and see people, lines, maps and cards from your own tree, with every fact tied to its source. Changes to FamilySearch wait for your approval."
+        "release_notes": "First release: bring in a family tree from FamilySearch or a GEDCOM file, ask about the people in it, see how they're related, where they lived and what's missing, and approve every change on a card."
       }
     }
   }
