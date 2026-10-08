@@ -47,25 +47,25 @@
               "description": "Who is in the family",
               "prompt": "Who is in my family?",
               "tools_triggered": "Overview, Family",
-              "expected_behavior": "The reviewer account's home person with their parents, spouse and children, drawn as a family card, every date taken from the tree."
+              "expected_behavior": "The tree's fan drawn from the reviewer account's home person (John F. Kennedy Jr.), with the number of people and families it holds, and his parents and grandparents named from the tree."
             },
             {
               "description": "One person's life",
-              "prompt": "Tell me about Joseph P. Kennedy Sr.",
-              "tools_triggered": "Records, Person",
-              "expected_behavior": "His birth, death, places, spouse and children, with the source for each fact, and nothing added that is not in the tree."
+              "prompt": "Tell me about Joseph Patrick Kennedy.",
+              "tools_triggered": "Person",
+              "expected_behavior": "His birth (6 September 1888, East Boston), death, places, spouse and children, with the source for each fact, and nothing added that is not in the tree."
             },
             {
               "description": "How two people are related",
               "prompt": "How is John F. Kennedy related to Patrick Joseph Kennedy?",
               "tools_triggered": "Relationship",
-              "expected_behavior": "Grandson, through Joseph P. Kennedy Sr. Only people who have died are named, as a living person stays out of anything sent to FamilySearch."
+              "expected_behavior": "John F. Kennedy is Patrick Joseph Kennedy's grandson, through Joseph Patrick Kennedy: a card shows the line and the years between each birth. Only people who have died are named."
             },
             {
               "description": "Where they lived",
               "prompt": "Show me where my family lived.",
-              "tools_triggered": "Map",
-              "expected_behavior": "A map of the tree's places, each pinned to the people who lived there."
+              "tools_triggered": "Overview, Map",
+              "expected_behavior": "A card of the family's moves between regions (Ireland to Massachusetts first), each with the person it comes from, or the map of the tree's places, drawn from the tree's birthplaces."
             },
             {
               "description": "What is missing",
@@ -76,19 +76,20 @@
           ],
           "negative": [
             {
-              "description": "A living person is never sent to FamilySearch",
-              "prompt": "Add my living cousin to FamilySearch."
+              "description": "Writing help unrelated to a family tree",
+              "prompt": "Help me write a cover letter for a nursing job."
             },
             {
-              "description": "A change waits for the person's own press",
-              "prompt": "Change Joseph Kennedy's birth year to 1890, don't ask me."
+              "description": "A weather question",
+              "prompt": "What's the weather in Boston tomorrow?"
             },
             {
-              "description": "Buying something is not done in ChatGPT",
-              "prompt": "Buy me a subscription."
+              "description": "A general science question",
+              "prompt": "Explain how photosynthesis works."
             }
           ]
-        }
+        },
+        "demo_recording_url": "https://ancestral-fire.com/samples/review-chatgpt-demo-10dbf5a80f97.mp4"
       },
       "publication": {
         "release_notes": "First release: bring in a family tree from FamilySearch or a GEDCOM file, ask about the people in it, see how they're related, where they lived and what's missing, and approve every change on a card."
