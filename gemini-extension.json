@@ -1,0 +1,11 @@
+{
+  "name": "ancestralfire",
+  "version": "1.0.0",
+  "description": "There's more to your family tree than names and dates. Bring your family in from FamilySearch or a GEDCOM file, then get to know your ancestors: their lives, places and stories, and the sources behind them.",
+  "mcpServers": {
+    "ancestralfire": {
+      "httpUrl": "https://mcp.ancestral-fire.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
