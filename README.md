@@ -31,7 +31,7 @@ Most of a family tree is people long gone, from public records; the living peopl
 
 - **Claude** reads what a question needs from your tree, and any scan you add in the chat, under the terms you accepted with Anthropic.
 - **AncestralFire** keeps your tree in a database that belongs to your account only, and runs the small models that search your notes and double-check a change before you approve it.
-- **FamilySearch**, only if you connect it: we search it for the people in your tree who have died, and a change to the shared tree is written only when you approve it, under your own FamilySearch account.
+- **FamilySearch**, only if you connect it: we search it for the people in your tree who have passed away, and a change to the shared tree is written only when you approve it, under your own FamilySearch account.
 - **Outside sources**, asked only what a question needs: Wikipedia, Wikidata, Wikisource, the Library of Congress, YouTube, and the map tiles of OpenFreeMap and OpenHistoricalMap.
 - **WorkOS** signs you in, and **Stripe** takes payment if you subscribe.
 
