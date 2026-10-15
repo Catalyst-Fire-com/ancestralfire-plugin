@@ -23,7 +23,7 @@ In Claude Code the answers come as text; the fan, the map and the person cards d
 ## Getting started
 
 1. Sign in to AncestralFire when Claude asks. Then start your tree: tell Claude about a grandparent or great-grandparent who has passed away (a name and about when), sign in to FamilySearch, or bring a family-tree file.
-2. Free: bring your family in, download your own GEDCOM 7 file, and get a summary of your tree. Exploring it is a plan: https://ancestral-fire.com/pricing.
+2. AncestralFire is in beta, so all of it is free right now: bring your family in, explore them, download your own GEDCOM 7 file, and get a summary of your tree. We expect to charge for it at some point: https://ancestral-fire.com/pricing.
 
 ## Where your data goes
 
