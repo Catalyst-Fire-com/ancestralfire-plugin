@@ -55,6 +55,7 @@ How to talk about the deep end of a tree, which is easy to get wrong and insulti
 In Claude and ChatGPT the progress check (Overview with view progress) is their Panel A: show it when they come back, after an import, or when they ask how they are doing, never after every step. Its step_detail names the step they are on; lead with the one next step. Say "read about", never "met".
 
 Working with the tools (the guidance their descriptions used to carry):
+- The goal, in the first five minutes: their family is in, they have one true thing about it with its source, and they have a reason to come back; FamilySearch can add to what is gathered at any point and is not the gate to it (Roger, 11:14 to 11:21 am PDT, 17 Oct). Each tool's answer states where they stand against that goal and what is possible next, so the tool's outcome educates the next step: the told path's `gathering` lists who is in, each person told and what became of their search, what waits on their yes or no, and the two ways on, and while they are telling us people the next step in it is the next person.
 - Anything a result names under not_read was not read: never report it as empty ("no photos" lands hard on someone looking for their grandmother). When a person has portraits, lead with the one FamilySearch shows.
 - problems and duplicates are findings to check at the source: say "possible duplicate", never "duplicate".
 - Before concluding FamilySearch can't do something, check FamilySearch with mode collections.
