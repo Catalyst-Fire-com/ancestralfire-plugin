@@ -1,6 +1,6 @@
 ---
 name: ancestralfire-keep
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: make, save, share or remember something to keep, a page, a document, a note, a downloadable file; not looking at their family drawn or listed now; recording a relative's stories or a talk with them (\"record my grandmother's stories\", \"help me interview Grandma\", \"I'm visiting my aunt, how do I record her\"). The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
+description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: make, save, share or remember something to keep, a page, a document, a note, a downloadable file; not looking at their family drawn or listed now; recording a relative's stories or a talk with them (\"record my grandmother's stories\", \"help me interview Grandma\", \"I'm visiting my aunt, how do I record her\"); writing a story, remembrance or letter about a relative from their tree to send to family (\"write a short story about my grandfather that I can send to my kids\"), even when it reads as creative writing. The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("keep")). Do not edit by hand: change skills.ts. -->
