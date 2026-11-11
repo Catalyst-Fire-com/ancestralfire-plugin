@@ -2,6 +2,10 @@
 
 The version is the plugin's build number: one more for every change to what Claude reads from it (its skills and the server's tools).
 
+## 0.1.3432 (11 Nov 2026)
+
+- The skills are the ones AncestralFire serves from this release.
+
 ## 0.1.3357 (10 Nov 2026)
 
 - The skills are the ones production serves on 10 Nov (b51449a85): the tool names and steps Claude reads match the server again.
