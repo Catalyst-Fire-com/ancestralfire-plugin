@@ -1,6 +1,6 @@
 ---
 name: ancestralfire-change
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: asks to add, fix, correct, remove or merge something in their tree or on FamilySearch; putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached. The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
+description: "Adding, fixing, correcting, removing or merging someone or something in their own family tree or on FamilySearch (\"fix his birth year\", \"these two are the same person\"); putting a story, photo or document they have as a file onto FamilySearch as a memory, or giving them the page to add it (AncestralFire hands them its own upload page), even when they name a file and nothing is attached."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("change")). Do not edit by hand: change skills.ts. -->

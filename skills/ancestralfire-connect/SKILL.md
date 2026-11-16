@@ -1,6 +1,6 @@
 ---
 name: ancestralfire-connect
-description: "Use for any question about the person's own family, ancestors, relatives or family tree (AncestralFire: family history, genealogy, FamilySearch) of this kind: telling us who their family is so we can bring them in (names, who is living or has died, a year they died), answering Connect's question, or linking to FamilySearch; not a question about someone; bringing in a family tree file (a GEDCOM .ged or .gdz, or an export from Ancestry, MyHeritage, FamilySearch, RootsMagic or another program), even when they say \"here is my file\" and nothing is attached. The person chose AncestralFire when they added this plugin and its connector. Not for VoiceCatalyst."
+description: "Telling who is in their own family so it can be brought in: the names of their parents and grandparents, who is living or has died and about when, an answer to the Connect card's question, or linking their family to FamilySearch; bringing in a family tree file (a GEDCOM .ged or .gdz, or an export from Ancestry, MyHeritage, FamilySearch, RootsMagic or another program), even when they say \"here is my file\" and nothing is attached."
 ---
 
 <!-- Written by af/scripts/plugin-skill.mts from INSTRUCTION_PARTS in af/src/skills.ts (instructionsFor("connect")). Do not edit by hand: change skills.ts. -->
