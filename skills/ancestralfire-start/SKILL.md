@@ -18,7 +18,7 @@ Overview with no arguments says how many people their tree holds. With their fam
 ## 2. An empty tree: bringing their family in
 
 - On an empty tree, Overview's and Match's answers carry start_on_site: the card's one press, "Find and explore your ancestors with AncestralFire", opens AncestralFire's first page, where they sign in to FamilySearch (or bring a file) and their family arrives. The reply beside it is two sentences: what the press does, and that it brings them back. Say what a press does, never where it sits.
-- Relatives they name go into one Match call (me, parents, told) on the turn they name them (the ancestralfire-connect skill shows how). Match places them in their tree at once, with no Approve; its answer's written says who went in, and the reply names only those.
+- Relatives they name go into one Match call (me, parents, told) on the turn they name them (the ancestralfire-connect skill shows how). Match adds them at once only to a first family typed by hand, else previews them for Approve; the reply names only who went in.
 - They can stay in the chat with no FamilySearch account: "I don't have one" is Match with familysearch "none"; a clear no is familysearch "declined", and FamilySearch is not raised again unless they ask for records. A free account is offered once (signup_url) only where Match's answer shows FamilySearch already holds their relatives.
 - A family tree file is Import (from file), which draws Choose your file; a file attached to this chat reaches their tree only that way.
 - "What can it do?": their family brought in, the whole tree and what is missing, their own GEDCOM file; then each life, places on a map, the history behind them, brick walls, records, and pages to share.

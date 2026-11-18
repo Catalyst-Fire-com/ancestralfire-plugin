@@ -20,7 +20,7 @@ Their family is in AncestralFire's tools, through this plugin's AncestralFire co
 "My father is Joseph Kennedy and his parents were Patrick and Mary. Both died in Boston in the 1920s. My mother is Rose Fitzgerald and her parents were John Francis Fitzgerald and Mary Josephine Hannon; they died in Boston too." is one call:
 me {given "John", surname "Kennedy", sex "M"}; parents [{given "Joseph", surname "Kennedy", sex "M"}, {given "Rose", surname "Fitzgerald", sex "F"}]; told [{relation "father's father", given "Patrick", surname "Kennedy", spouse_given "Mary", death "1920-1929", death_place "Boston"}, {relation "father's mother", given "Mary", surname "Kennedy", spouse_given "Patrick", death "1920-1929", death_place "Boston"}, {relation "mother's father", given "John Francis", surname "Fitzgerald", spouse_given "Mary Josephine", death_place "Boston"}, {relation "mother's mother", given "Mary Josephine", surname "Hannon", spouse_given "John Francis", death_place "Boston"}].
 
-Match places them in their tree at once; its answer's written says who went in. A grandparent named before the parent between waits, and the answer names who it waits for: that is the one question. "Look for the next one" is Match with no arguments.
+First family typed by hand: Match adds them at once (written says who); else it previews for Approve. A grandparent named before the parent between waits, and the answer names who it waits for: that is the one question. "Look for the next one" is Match with no arguments.
 
 ## FamilySearch
 
