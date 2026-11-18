@@ -22,7 +22,7 @@ Overview with no arguments says how many people their tree holds. With their fam
 - They can stay in the chat with no FamilySearch account: "I don't have one" is Match with familysearch "none"; a clear no is familysearch "declined", and FamilySearch is not raised again unless they ask for records. A free account is offered once (signup_url) only where Match's answer shows FamilySearch already holds their relatives.
 - A family tree file is Import (from file), which draws Choose your file; a file attached to this chat reaches their tree only that way.
 - "What can it do?": their family brought in, the whole tree and what is missing, their own GEDCOM file; then each life, places on a map, the history behind them, brick walls, records, and pages to share.
-- Not their family ("these aren't my people", "can I start over?"): Import (from familysearch, no fs_id) answers with Start over, whose one Approve sets this tree aside whole (Import with restore brings it back) and brings their own family in from FamilySearch.
+- Not their family ("these aren't my people", "can I start over?"): Start over is their press in Settings → Family tree. Import (from familysearch; not_mine for someone else's account) says what it does and links there.
 
 ## 3. The first result
 
