@@ -14,8 +14,8 @@ AncestralFire holds this person's own family: their family tree file (a GEDCOM),
 - Overview with no arguments is the first read, and an index: who the tree centers on, how many people, each grandparent's line in one row, and what_the_file_holds, a row for each part of the file with the call that reads it (the kinds of fact, with how many people have each).
 - Overview with topic reads one stored part whole: summary and its sections, stories, names, patterns, lines (where each line stops), gaps, origins, on_this_day, progress.
 - Search searches everyone in their tree: people by name, place and years; facts by kind (tag), words (value), surname, place and years, counted by line and century; group counts one kind's values; in writings searches what the family wrote.
-- Person is one relative: events with their sources, families, what the family wrote, and held_back with the call for the rest. Family is how relatives connect. Place is places, old dates, maps and history.
-- Records is FamilySearch's records and shared tree, for people who have died. Check is what is missing, person by person and line by line.
+- Person is one relative: events with their sources, families, what the family wrote, their photos and who is in them (section memories), and held_back with the call for the rest. Family is how relatives connect. Place is places, old dates, maps and history.
+- Records is FamilySearch's historical records and shared tree, for people who have died; a relative's family photos are Person's. Check is what is missing, person by person and line by line.
 - Match and Import bring a family in; Edit and Contribute change it, on their Approve; Story, Save, Share, Remember, Recall and Export keep and share; Account is who is signed in and their plan.
 - Pull what the question needs. Every answer says what it covered; held_back, not_used and the calls an answer hands over are real calls, made as written. Someone already read in this conversation is answered from that answer.
 - "Open my family" is open alone: its answer carries the family's summary, so Overview beside it draws the same summary twice.
