@@ -71,7 +71,7 @@
               "description": "Correct a fact, approved by the person",
               "prompt": "Rose Fitzgerald Kennedy died at her home in Hyannis Port, Barnstable County, Massachusetts, not in Hyannis. Please correct her death place in my tree.",
               "tools_triggered": "Edit",
-              "expected_behavior": "A preview of the one change, nothing saved yet: Rose Elizabeth Fitzgerald (1890–1995), the home person's mother, her death place now \"Hyannis, MA, USA\" and after \"Hyannis Port, Barnstable County, Massachusetts, USA\", the date 22 January 1995 unchanged, \"Only in your tree. FamilySearch is not changed\", with Correct it and Not now. The change is made only when the person presses Correct it, on the card or on the AncestralFire page the answer links to; that page then says \"Changed in your tree\", a later question reads Hyannis Port back from the tree, and its Undo (\"Put it back\") restores Hyannis for 30 days."
+              "expected_behavior": "A preview of the one change, nothing saved yet: Rose Elizabeth Fitzgerald (1890–1995), the home person's mother, her death place now \"Hyannis, MA, USA\" and after \"Hyannis Port, Barnstable County, Massachusetts, USA\", the date 22 January 1995 unchanged, \"Only in your tree. FamilySearch is not changed\", with Correct it and Not now. The change is made only when the person presses Correct it; the card then says \"Changed in your tree\", a later question reads Hyannis Port back from the tree, and asked to undo it, a Put it back card restores Hyannis on the person's press (undo lasts 30 days)."
             }
           ],
           "negative": [
@@ -89,7 +89,7 @@
             }
           ]
         },
-        "demo_recording_url": "https://ancestral-fire.com/samples/review-chatgpt-demo-cc537f7c487b.mp4"
+        "demo_recording_url": "https://ancestral-fire.com/samples/review-chatgpt-demo-26eba6c6db64.mp4"
       },
       "publication": {
         "release_notes": "First release: bring in a family tree from FamilySearch or a GEDCOM file, ask about the people in it, see how they're related, where they lived and what's missing, and approve every change on a card."
