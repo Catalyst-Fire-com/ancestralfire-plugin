@@ -16,8 +16,7 @@ In Claude Code the answers come as text; the fan, the map and the person cards d
 
 ## Install
 
-- **From Claude's plugin directory:** add AncestralFire under Customize > Plugins.
-- **Claude (claude.ai and the desktop app):** Customize > Plugins > Add > Add marketplace, enter `Catalyst-Fire-com/ancestralfire-plugin`, then install AncestralFire.
+- **Claude (claude.ai, the desktop app and mobile):** open [AncestralFire in Claude's directory](https://claude.ai/plugins/id/b459138e-f102-4b1a-ace5-9968e9ee1f85%40anthropic-plugin-directory), press **Add**, then **Connect** and sign in. Then ask Claude: "Who's in my family?"
 - **Claude Code:** `/plugin marketplace add Catalyst-Fire-com/ancestralfire-plugin`, then `/plugin install ancestralfire@ancestralfire`.
 
 ## Getting started
