@@ -44,12 +44,6 @@
         "test_cases": {
           "positive": [
             {
-              "description": "The oldest person in the tree",
-              "prompt": "Who is the oldest person in my family tree?",
-              "tools_triggered": "Overview, Search, Person",
-              "expected_behavior": "The earliest-born person the reviewer account's Kennedy file holds: François Bouvier, born 1727 or 1728 in France, on the line of the home person's wife, Jacqueline Bouvier, with his father, wife and son from the tree, answered from the tree, not from the web."
-            },
-            {
               "description": "One person's life",
               "prompt": "Tell me about Joseph Patrick Kennedy.",
               "tools_triggered": "Person",
@@ -72,6 +66,12 @@
               "prompt": "What's missing from my tree?",
               "tools_triggered": "Check, Overview",
               "expected_behavior": "A card of what the tree is missing, by how many people (citations no one could find again, no birthplace, where a line stops, no date, no death), each row naming the people, and the line most worth extending next."
+            },
+            {
+              "description": "Correct a fact, approved by the person",
+              "prompt": "Rose Fitzgerald Kennedy died at her home in Hyannis Port, Barnstable County, Massachusetts, not in Hyannis. Please correct her death place in my tree.",
+              "tools_triggered": "Edit",
+              "expected_behavior": "A preview of the one change, nothing saved yet: Rose Elizabeth Fitzgerald (1890–1995), the home person's mother, her death place now \"Hyannis, MA, USA\" and after \"Hyannis Port, Barnstable County, Massachusetts, USA\", the date 22 January 1995 unchanged, \"Only in your tree. FamilySearch is not changed\", with Correct it and Not now. The change is made only when the person presses Correct it, on the card or on the AncestralFire page the answer links to; that page then says \"Changed in your tree\", a later question reads Hyannis Port back from the tree, and its Undo (\"Put it back\") restores Hyannis for 30 days."
             }
           ],
           "negative": [
