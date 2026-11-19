@@ -53,7 +53,7 @@
               "description": "One person's life",
               "prompt": "Tell me about Joseph Patrick Kennedy.",
               "tools_triggered": "Person",
-              "expected_behavior": "A card for Joseph Patrick Kennedy (1888–1969), the home person's father: his birth (6 September 1888, East Boston), death, spouse and nine children, the four children he outlived, with the source for each fact, and nothing added that is not in the tree."
+              "expected_behavior": "A card for Joseph Patrick Kennedy (1888–1969), the home person's father: his birth (6 September 1888, East Boston), death, spouse and nine children, the four children he outlived (Joseph Jr. in 1944, Kathleen in 1948, John in 1963, Robert in 1968), each family fact from the tree with its source."
             },
             {
               "description": "How two people are related",
@@ -89,7 +89,7 @@
             }
           ]
         },
-        "demo_recording_url": "https://ancestral-fire.com/samples/review-chatgpt-demo-10dbf5a80f97.mp4"
+        "demo_recording_url": "https://ancestral-fire.com/samples/review-chatgpt-demo-cc537f7c487b.mp4"
       },
       "publication": {
         "release_notes": "First release: bring in a family tree from FamilySearch or a GEDCOM file, ask about the people in it, see how they're related, where they lived and what's missing, and approve every change on a card."
