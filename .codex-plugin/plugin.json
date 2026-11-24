@@ -11,7 +11,7 @@
   "interface": {
     "displayName": "AncestralFire",
     "shortDescription": "Explore your own family tree",
-    "longDescription": "AncestralFire holds your own family tree and answers questions about the people in it: who they were, where they lived, how you are related, what was happening around them and what is missing, each fact with its source in your tree. Bring your family in from a GEDCOM file, by naming relatives who have died, or from your own FamilySearch account with your own sign-in. Every change to your tree waits for your Approve, and nothing about a living person is sent to FamilySearch.",
+    "longDescription": "AncestralFire holds your own family tree and answers questions about the people in it: who they were, where they lived, how you are related, what was happening around them and what is missing, each fact with its source in your tree. Bring your family in from a GEDCOM file, by naming relatives who have died, or from your own FamilySearch account with your own sign-in. Every change to your tree waits for your Approve, and a living person goes to FamilySearch only marked living, into your own private space there.",
     "developerName": "CatalystFire, Inc.",
     "category": "Education & Research",
     "capabilities": [

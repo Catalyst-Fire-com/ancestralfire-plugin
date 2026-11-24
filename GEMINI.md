@@ -4,5 +4,5 @@ AncestralFire (https://ancestral-fire.com) holds the person's own family tree an
 
 - The first time, the tools ask the person to sign in to AncestralFire in their browser.
 - Changes to FamilySearch are made only when the person approves them.
-- The living people in a tree stay in the person's own file: nothing about them is added, changed or published on FamilySearch.
+- The living people in a tree stay private: one goes to FamilySearch only on the person's Approve, marked living, in their own private space there.
 - More: https://ancestral-fire.com/help
