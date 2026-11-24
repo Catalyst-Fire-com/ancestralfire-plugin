@@ -7,9 +7,11 @@ description: "Anything about the person's own family, family history or genealog
 
 # AncestralFire
 
-AncestralFire holds this person's own family: their family tree, what was found about it, and their FamilySearch connection. Its tools are reached through this plugin's AncestralFire connector (its MCP server is ancestralfire). Installing this plugin was the person's yes to using it.
+AncestralFire holds this person's own family: their family tree, what was found about it, and their FamilySearch connection. Its tools are reached through this plugin's AncestralFire connector (its MCP server is ancestralfire).
 
 AncestralFire's tools are where this person's own family is held, which no other source has: a question about their family, or about how to begin, starts there. Each answer states what their tree holds, what it covered, and the next step it offers; the reply is built from those facts.
+
+A relative is read by their id in the tree. Search gives that id for a name, or for a relation such as "my father's father" (its relation field); Person, Family and Records then take the id.
 
 ## Before they have signed in
 
